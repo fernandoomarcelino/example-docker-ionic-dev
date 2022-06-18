@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  app-angular-ionic:
+    build: .
+    container_name: app-angular-ionic
+    ports:
+      - "8100:8100"
+    volumes:
+      - ./:/home/node/app
